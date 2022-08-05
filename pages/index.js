@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 import { useState, useRef } from 'react';
 
@@ -17,7 +16,6 @@ export default function Home() {
   const livePreviewBox = (e) => {
     e.preventDefault();
     if(!flagUrl) return ;
-    console.log(`Request Send for ${inputUrl.current.value}`);
 
     fetch(`/api/details/?urlString=${inputUrl.current.value}`, {
         method: 'GET'
