@@ -4,16 +4,13 @@
   text-align: center;
 }
 
-.head{
-  color : #411071;
-}
 
 .font-Uchen{
   font-family: 'Uchen', serif;
 }
 
-.body{
-  background-color: #f2eff5;
+body{
+  background-color: #f4f1f7;
 }
 
 .blink {
